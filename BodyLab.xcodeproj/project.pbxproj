@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0940A96527FFE8C500BCA1EC /* BodyLabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0940A96427FFE8C500BCA1EC /* BodyLabApp.swift */; };
-		0940A96727FFE8C500BCA1EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0940A96627FFE8C500BCA1EC /* ContentView.swift */; };
+		0940A96727FFE8C500BCA1EC /* WorkoutsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0940A96627FFE8C500BCA1EC /* WorkoutsView.swift */; };
 		0940A96927FFE8C700BCA1EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0940A96827FFE8C700BCA1EC /* Assets.xcassets */; };
 		0940A96C27FFE8C700BCA1EC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0940A96B27FFE8C700BCA1EC /* Preview Assets.xcassets */; };
 		0940A96E27FFE8C700BCA1EC /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0940A96D27FFE8C700BCA1EC /* Persistence.swift */; };
@@ -38,7 +38,7 @@
 /* Begin PBXFileReference section */
 		0940A96127FFE8C500BCA1EC /* BodyLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BodyLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0940A96427FFE8C500BCA1EC /* BodyLabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyLabApp.swift; sourceTree = "<group>"; };
-		0940A96627FFE8C500BCA1EC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0940A96627FFE8C500BCA1EC /* WorkoutsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutsView.swift; sourceTree = "<group>"; };
 		0940A96827FFE8C700BCA1EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0940A96B27FFE8C700BCA1EC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0940A96D27FFE8C700BCA1EC /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -98,11 +98,12 @@
 		0940A96327FFE8C500BCA1EC /* BodyLab */ = {
 			isa = PBXGroup;
 			children = (
-				0940A96427FFE8C500BCA1EC /* BodyLabApp.swift */,
-				0940A96627FFE8C500BCA1EC /* ContentView.swift */,
+				0940A99627FFE94900BCA1EC /* Extensions */,
+				0940A99327FFE8EC00BCA1EC /* Models */,
+				0940A99427FFE90100BCA1EC /* Views */,
+				0940A99527FFE92E00BCA1EC /* ViewModels */,
 				0940A96827FFE8C700BCA1EC /* Assets.xcassets */,
 				0940A96D27FFE8C700BCA1EC /* Persistence.swift */,
-				0940A96F27FFE8C700BCA1EC /* BodyLab.xcdatamodeld */,
 				0940A96A27FFE8C700BCA1EC /* Preview Content */,
 			);
 			path = BodyLab;
@@ -131,6 +132,37 @@
 				0940A98627FFE8C700BCA1EC /* BodyLabUITestsLaunchTests.swift */,
 			);
 			path = BodyLabUITests;
+			sourceTree = "<group>";
+		};
+		0940A99327FFE8EC00BCA1EC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0940A96F27FFE8C700BCA1EC /* BodyLab.xcdatamodeld */,
+				0940A96427FFE8C500BCA1EC /* BodyLabApp.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0940A99427FFE90100BCA1EC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0940A96627FFE8C500BCA1EC /* WorkoutsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0940A99527FFE92E00BCA1EC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		0940A99627FFE94900BCA1EC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,7 +297,7 @@
 			files = (
 				0940A96E27FFE8C700BCA1EC /* Persistence.swift in Sources */,
 				0940A97127FFE8C700BCA1EC /* BodyLab.xcdatamodeld in Sources */,
-				0940A96727FFE8C500BCA1EC /* ContentView.swift in Sources */,
+				0940A96727FFE8C500BCA1EC /* WorkoutsView.swift in Sources */,
 				0940A96527FFE8C500BCA1EC /* BodyLabApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
